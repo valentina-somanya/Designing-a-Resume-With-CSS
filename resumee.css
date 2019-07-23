@@ -1,0 +1,55 @@
+.container{
+    display: flex;    
+}
+.sec-one{
+    width: 35%; 
+    text-align: center;  
+    margin-top: 20px; 
+    font-family: 'Stylish', sans-serif;  
+    background-image: linear-gradient(to right bottom,#fc7a70,#e937370a)
+}
+.sec-two{
+    width: 65%;
+    margin-top: 20px;
+    border-left: 2px;
+    background-image: linear-gradient(to right bottom,#fc7a70,#e937370a),url('jobsearch.jpg');
+    background-size: cover; 
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+hr{
+    width: 100px;
+    border-top: 2px solid;
+}
+a{
+   
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(207, 57, 57);
+}
+.fab{
+    margin: 10px;
+    cursor: pointer;
+    color: rgb(207, 57, 57);
+}
+h2,h4{
+    margin-left: 30px;
+}
+.unique, p {
+    margin: 20px;
+    font-family: 'Stylish', sans-serif;
+    font-size: 18px;   
+    
+}
+.fas{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+ul{
+    list-style-type: circle;
+}
